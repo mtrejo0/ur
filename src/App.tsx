@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -43,6 +42,8 @@ function App() {
     <div className="App">
       <a href={"https://playur.org/"}><h2>Play UR</h2></a>
 
+      <a href={"https://www.getty.edu/education/college/ancient_rome_at_home/pdf/ur_game.pdf"}><p>Print the board</p></a>
+
 
       <h3>Dice</h3>
 
@@ -60,6 +61,14 @@ function App() {
       }}>Roll</button>
 
       {rolling && <p>rolling...</p>}
+
+
+      
+
+
+      <p style={{marginTop: "64px"}}></p>
+      
+
     </div>
   );
 }
